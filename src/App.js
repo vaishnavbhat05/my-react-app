@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 
 // class Car extends React.Component {
 //   render() {
@@ -65,14 +65,30 @@ import React from 'react'
 //     );
 //   }
 
-  function Football() {
-    const shoot = (a) => {
-      alert(a);
-    }
+  // function Football() {
+  //   const shoot = (a) => {
+  //     alert(a);
+  //   }
   
-    return (
-      <button onClick={() => shoot("Goal!")}>Take the shot!</button>
-    );
-  }
+  //   return (
+  //     <button onClick={() => shoot("Goal!")}>Take the shot!</button>
+  //   );
+  // }
 
-export default Football;
+  // function MissedGoal() {
+  //   return <h1>MISSED!</h1>;
+  // }
+  
+  // function MadeGoal() {
+  //   return <h1>Goal!</h1>;
+  // }
+
+  // function Goal(props){
+  //   const isGoal = props.isGoal ; 
+  //   if (isGoal) {
+  //     return <MadeGoal />
+  //   }
+  //   return <MissedGoal />
+  // }
+
+// export default Goal;
