@@ -1,17 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import Goal from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Garage from './car4.js';
 
-
-// const cars = ['Ford', 'BMW' , 'Ferrari'];
-// const myElement = <Car brand="Ford" />;
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Garage />
+    <App />
   </React.StrictMode>
 );
 
